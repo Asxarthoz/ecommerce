@@ -57,7 +57,33 @@ void MejaKerja()
     printf("         [_/o/__________________\\o\\_]\n");
     printf("          / /\\ \\              / /\\ \\\n");
     printf("         / /  \\_\\            /_/  \\_\\ \n");
+}
 
+void BukuNovel()
+{
+    printf("                   __..._   _...__\n");
+    printf("              _..-\"      `Y`      \"-._\n");
+    printf("              \\ Once upon |           /\n");
+    printf("              \\\\  a time..|          //\n");
+    printf("              \\\\\\         |         ///\n");
+    printf("               \\\\\\ _..---.|.---.._ ///\n");
+    printf("                \\`_..---.Y.---.._`//\n");
+    printf("                 '`               `'\n");
+}
+
+void Lipstik()
+{
+    printf("        _\n");
+    printf("       | \\\n");
+    printf("       |  |\n");
+    printf("       |  |\n");
+    printf("       |  |\n");
+    printf("      |~~~~|\n");
+    printf("      |SSSS|\n");
+    printf("      |    |  _______\n");
+    printf("      |    | /     / \\\n");
+    printf("      |SSSS| \\_____\\_/\n");
+    printf("      '----'\n");
 }
 
 
@@ -69,6 +95,8 @@ int main()
     Kemeja();
     BerasPremium();
     MejaKerja();
+    BukuNovel();
+    Lipstik();
 
 return 0;
 }
